@@ -1,0 +1,33 @@
+{
+   "name":"clickcoder/slim-eloquent",
+   "description":"Eloquent with SlimPHP including pagination",
+   "keywords":[
+      "slim-eloquent",
+      "laravel",
+      "eloquent",
+      "slim",
+      "slimphp"
+   ],
+   "homepage":"http://github.com/clickcoder/slim-eloquent",
+   "license":"MIT",
+   "authors":[
+      {
+         "name":"clickcoder",
+         "email":"kevin@kevindarren.com"
+      }
+   ],
+   "source":{
+      "url":"git://github.com/clickcoder/slim-eloquent.git",
+      "type":"git",
+      "reference":"master"
+   },
+   "require":{
+      "illuminate/database": "*"
+   },
+   "autoload":{
+      "psr-4":{
+         "Slim\\Eloquent\\":""
+      }
+   },
+	"target-dir": "Slim/Eloquent"
+}
