@@ -1,4 +1,4 @@
-<?
+<?php
 namespace Slim\Eloquent;
 
 class Model extends \Illuminate\Database\Eloquent\Model {
